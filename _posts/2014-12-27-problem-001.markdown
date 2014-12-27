@@ -1,11 +1,36 @@
 ---
 layout: post
-title:  "Prologue"
+title:  "Problem 001"
 date:   2014-12-27 01:03:59
 categories: jekyll update
 ---
+If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
 
-History began.
+Find the sum of all the multiples of 3 or 5 below 1000.
+
+source: https://projecteuler.net/problem=1
+
+My answer:
+
+{% highlight ruby %}
+sum = 0
+a = 1
+while 3*a < 1000
+  sum += 3*a
+  a += 1
+end
+a = 1
+while 5*a < 1000
+  sum += 5*a
+  a += 1
+end
+a = 1
+while 15*a < 1000
+  sum -= 15*a
+  a += 1
+end
+puts sum
+{% endhighlight %}
 
 <!-- You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

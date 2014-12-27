@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Prologue</title>
-  <meta name="description" content="History began.">
+  <title>Problem 001</title>
+  <meta name="description" content="If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://mattcho.github.io//jekyll/update/2014/12/26/welcome-to-jekyll.html">
+  <link rel="canonical" href="http://mattcho.github.io//jekyll/update/2014/12/26/problem-001.html">
   <link rel="alternate" type="application/rss+xml" title="Matt Cho" href="http://mattcho.github.io//feed.xml" />
 </head>
 
@@ -57,12 +57,36 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Prologue</h1>
+    <h1 class="post-title">Problem 001</h1>
     <p class="post-meta">Dec 26, 2014</p>
   </header>
 
   <article class="post-content">
-    <p>History began.</p>
+    <p>If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.</p>
+
+<p>Find the sum of all the multiples of 3 or 5 below 1000.</p>
+
+<p>source: https://projecteuler.net/problem=1</p>
+
+<p>My answer:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">sum</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">a</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="k">while</span> <span class="mi">3</span><span class="o">*</span><span class="n">a</span> <span class="o">&lt;</span> <span class="mi">1000</span>
+  <span class="n">sum</span> <span class="o">+=</span> <span class="mi">3</span><span class="o">*</span><span class="n">a</span>
+  <span class="n">a</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="k">end</span>
+<span class="n">a</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="k">while</span> <span class="mi">5</span><span class="o">*</span><span class="n">a</span> <span class="o">&lt;</span> <span class="mi">1000</span>
+  <span class="n">sum</span> <span class="o">+=</span> <span class="mi">5</span><span class="o">*</span><span class="n">a</span>
+  <span class="n">a</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="k">end</span>
+<span class="n">a</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="k">while</span> <span class="mi">15</span><span class="o">*</span><span class="n">a</span> <span class="o">&lt;</span> <span class="mi">1000</span>
+  <span class="n">sum</span> <span class="o">-=</span> <span class="mi">15</span><span class="o">*</span><span class="n">a</span>
+  <span class="n">a</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="k">end</span>
+<span class="nb">puts</span> <span class="n">sum</span></code></pre></div>
 
 <!-- You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
