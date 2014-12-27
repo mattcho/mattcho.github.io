@@ -1,31 +1,27 @@
 ---
 layout: post
-title:  "Prologue"
+title:  "Problem 001"
 date:   2014-12-27 01:03:59
 categories: jekyll update
 ---
 
 {% highlight ruby %}
 sum = 0
-
 a = 1
 while 3*a < 1000
   sum += 3*a
   a += 1
 end
-
 a = 1
 while 5*a < 1000
   sum += 5*a
   a += 1
 end
-
 a = 1
 while 15*a < 1000
   sum -= 15*a
   a += 1
 end
-
 puts sum
 {% endhighlight %}
 
