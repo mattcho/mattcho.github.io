@@ -1,0 +1,66 @@
+---
+layout: post
+title:  "Problem 003"
+date:   2014-12-28
+categories: jekyll update
+---
+The prime factors of 13195 are 5, 7, 13 and 29. What is the largest prime factor of the number 600851475143 ?
+
+{% highlight ruby %}
+=begin
+definition of the prime factor: In number theory, the prime factors of a positive integer are the prime
+	numbers that divide that integer exactly. A prime number (or a prime) is a natural number greater than 1
+	that has no positive divisors other than 1 and itself.
+iterate from 2 through 13195 and if conditions are met add them into the answer array
+conditions
+1. 13195 % i == 0
+2. 
+=end
+# arr = []
+# i = 2
+num = 600851475143
+# while i <= num
+# 	if num % i == 0
+# 		arr << i
+# 	end
+# 	i += 1
+# end
+=begin
+new_list.last, after creating a new list after selecting prime numbers only out of the existing array, arr.
+a prime is a natural number greater than 1 that has no positive divisors other than 1 and itself.
+when the candidate number is divided by 1..itself, (% == 0) values are only 1 and itself.
+=end
+# new_arr = []
+# arr.each do |i|
+# 	(2...i).each do |j|
+# 		new_arr << i if i % j == 0
+#  	end
+# end
+# answer = arr - new_arr
+# puts answer.last
+require 'prime'
+# arr.keep_if { |x| x.prime? == true }
+# puts arr
+puts num.prime_division
+{% endhighlight %}
+
+<!-- You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+Jekyll also offers powerful support for code snippets:
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+
+[jekyll]:      http://jekyllrb.com
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-help]: https://github.com/jekyll/jekyll-help
+ -->
