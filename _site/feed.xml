@@ -5,8 +5,8 @@
     <description></description>
     <link>http://mattcho.github.io//</link>
     <atom:link href="http://mattcho.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 28 Dec 2014 17:07:21 -0500</pubDate>
-    <lastBuildDate>Sun, 28 Dec 2014 17:07:21 -0500</lastBuildDate>
+    <pubDate>Sun, 28 Dec 2014 17:26:15 -0500</pubDate>
+    <lastBuildDate>Sun, 28 Dec 2014 17:26:15 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -73,13 +73,9 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
  --&gt;
 </description>
         <pubDate>Sun, 28 Dec 2014 00:00:00 -0500</pubDate>
-        <link>http://mattcho.github.io//jekyll/update/2014/12/28/problem003.html</link>
-        <guid isPermaLink="true">http://mattcho.github.io//jekyll/update/2014/12/28/problem003.html</guid>
+        <link>http://mattcho.github.io//2014/12/28/problem003.html</link>
+        <guid isPermaLink="true">http://mattcho.github.io//2014/12/28/problem003.html</guid>
         
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
         
       </item>
     
@@ -129,13 +125,9 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
  --&gt;
 </description>
         <pubDate>Sat, 27 Dec 2014 00:00:00 -0500</pubDate>
-        <link>http://mattcho.github.io//jekyll/update/2014/12/27/problem002.html</link>
-        <guid isPermaLink="true">http://mattcho.github.io//jekyll/update/2014/12/27/problem002.html</guid>
+        <link>http://mattcho.github.io//2014/12/27/problem002.html</link>
+        <guid isPermaLink="true">http://mattcho.github.io//2014/12/27/problem002.html</guid>
         
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
         
       </item>
     
@@ -185,13 +177,9 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
  --&gt;
 </description>
         <pubDate>Fri, 26 Dec 2014 00:00:00 -0500</pubDate>
-        <link>http://mattcho.github.io//jekyll/update/2014/12/26/problem001.html</link>
-        <guid isPermaLink="true">http://mattcho.github.io//jekyll/update/2014/12/26/problem001.html</guid>
+        <link>http://mattcho.github.io//2014/12/26/problem001.html</link>
+        <guid isPermaLink="true">http://mattcho.github.io//2014/12/26/problem001.html</guid>
         
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
         
       </item>
     

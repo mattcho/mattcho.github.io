@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "Problem 003"
-date:   2014-12-28
-categories: jekyll update
 ---
 The prime factors of 13195 are 5, 7, 13 and 29.
 
