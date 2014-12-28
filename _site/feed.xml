@@ -5,14 +5,15 @@
     <description></description>
     <link>http://mattcho.github.io//</link>
     <atom:link href="http://mattcho.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 28 Dec 2014 17:06:15 -0500</pubDate>
-    <lastBuildDate>Sun, 28 Dec 2014 17:06:15 -0500</lastBuildDate>
+    <pubDate>Sun, 28 Dec 2014 17:07:21 -0500</pubDate>
+    <lastBuildDate>Sun, 28 Dec 2014 17:07:21 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Problem 003</title>
-        <description>&lt;p&gt;The prime factors of 13195 are 5, 7, 13 and 29.
-What is the largest prime factor of the number 600851475143?&lt;/p&gt;
+        <description>&lt;p&gt;The prime factors of 13195 are 5, 7, 13 and 29.&lt;/p&gt;
+
+&lt;p&gt;What is the largest prime factor of the number 600851475143?&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;cm&quot;&gt;=begin&lt;/span&gt;
 &lt;span class=&quot;cm&quot;&gt;definition of the prime factor: In number theory, the prime factors of a positive integer are the prime&lt;/span&gt;
