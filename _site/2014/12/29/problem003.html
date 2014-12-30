@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Matt Cho</title>
-  <meta name="description" content="">
+  <title>Problem 004</title>
+  <meta name="description" content="The sum of the squares of the first ten natural numbers is 385The square of the sum of the first ten natural numbers is 3025Hence the difference between the ...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://mattcho.github.io//">
+  <link rel="canonical" href="http://mattcho.github.io//2014/12/29/problem003.html">
   <link rel="alternate" type="application/rss+xml" title="Matt Cho" href="http://mattcho.github.io//feed.xml" />
 </head>
 
@@ -54,47 +54,24 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <div class="post">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title">Problem 004</h1>
+    <p class="post-meta">Dec 29, 2014</p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Dec 29, 2014</span>
+  <article class="post-content">
+    <p>The sum of the squares of the first ten natural numbers is 385
+The square of the sum of the first ten natural numbers is 3025
+Hence the difference between the sum of the squares of the first ten natural numbers and the square of the sum is 3025 − 385 = 2640.
+Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.</p>
 
-        <h2>
-          <a class="post-link" href="/2014/12/29/problem003.html">Problem 004</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Dec 28, 2014</span>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">a</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="o">.</span><span class="n">.</span><span class="mi">100</span><span class="p">)</span><span class="o">.</span><span class="n">inject</span> <span class="p">{</span> <span class="o">|</span><span class="n">sum</span><span class="p">,</span> <span class="n">n</span><span class="o">|</span> <span class="n">sum</span> <span class="o">+</span> <span class="n">n</span><span class="o">**</span><span class="mi">2</span> <span class="p">}</span>
+<span class="n">b</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="o">.</span><span class="n">.</span><span class="mi">100</span><span class="p">)</span><span class="o">.</span><span class="n">reduce</span><span class="p">(</span><span class="ss">:+</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span>
+<span class="nb">puts</span> <span class="n">b</span> <span class="o">-</span> <span class="n">a</span></code></pre></div>
 
-        <h2>
-          <a class="post-link" href="/2014/12/28/problem003.html">Problem 003</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Dec 27, 2014</span>
-
-        <h2>
-          <a class="post-link" href="/2014/12/27/problem002.html">Problem 002</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Dec 26, 2014</span>
-
-        <h2>
-          <a class="post-link" href="/2014/12/26/problem001.html">Problem 001</a>
-        </h2>
-      </li>
-    
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+  </article>
 
 </div>
 
