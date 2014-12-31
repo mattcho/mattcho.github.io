@@ -4,8 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Intro
-
+The purpose of this blog is to organize my knowledge about the Ruby programming language and Rails. 
 
 
 <!-- This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
