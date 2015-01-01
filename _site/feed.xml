@@ -5,9 +5,94 @@
     <description></description>
     <link>http://mattcho.github.io//</link>
     <atom:link href="http://mattcho.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 31 Dec 2014 14:16:12 -0500</pubDate>
-    <lastBuildDate>Wed, 31 Dec 2014 14:16:12 -0500</lastBuildDate>
+    <pubDate>Wed, 31 Dec 2014 21:28:27 -0500</pubDate>
+    <lastBuildDate>Wed, 31 Dec 2014 21:28:27 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Numbers &amp; Expressions</title>
+        <description>&lt;h2 id=&quot;expression&quot;&gt;expression&lt;/h2&gt;
+
+&lt;p&gt;When programming, an expression is a combination of numbers, operators (such as + or -), and variables that, when understood by the computer, result in &lt;strong&gt;an answer of some form&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;5&lt;br /&gt;
+1 + 2&lt;br /&gt;
+“a” + “b” + “c”&lt;br /&gt;
+100 - 5 * (2 - 1)&lt;br /&gt;
+x + y   &lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;variable&quot;&gt;variable&lt;/h2&gt;
+
+&lt;p&gt;Variables are &lt;strong&gt;placeholders&lt;/strong&gt; or &lt;strong&gt;references&lt;/strong&gt; to objects, including numbers, text, or any types of objects you’ve chosen to create.&lt;/p&gt;
+
+&lt;p&gt;Variable names must be a single unit (no spaces); must start with either a &lt;strong&gt;letter&lt;/strong&gt; or an &lt;strong&gt;underscore&lt;/strong&gt;; must contain only letters, &lt;strong&gt;numbers&lt;/strong&gt;, or underscores; and are case sensitive.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;comparison-operators&quot;&gt;comparison operators&lt;/h2&gt;
+
+&lt;p&gt;A basic form of logic is to use comparison operators within expressions to make decision.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;age = 24
+puts &quot;You&#39;re a teenager&quot; if age &amp;gt; 12 &amp;amp;&amp;amp; age &amp;lt;20
+puts &quot;You&#39;re a teenager&quot; if age.between?(13, 19)
+puts &quot;You&#39;re NOT a teenager&quot; unless age &amp;gt; 12 &amp;amp;&amp;amp; age &amp;lt; 20
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Other than familiar comparison operators such as:&lt;br /&gt;
+&amp;gt;&lt;br /&gt;
+&amp;lt;&lt;br /&gt;
+==&lt;br /&gt;
+&amp;gt;=&lt;br /&gt;
+&amp;lt;=&lt;br /&gt;
+!=&lt;br /&gt;
+Attention takes this:
+x &amp;lt;=&amp;gt; y returns&lt;br /&gt;
+0 if x and y are equal&lt;br /&gt;
+1 if x is higher&lt;br /&gt;
+-1 if y is higher&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;puts &quot;A very young or old man&quot; if gender == &quot;male&quot; &amp;amp;&amp;amp; (age &amp;lt; 18 || age &amp;gt; 85)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This example checks if gender is equal to “male” &lt;em&gt;and&lt;/em&gt; if age is under 18 or over 85.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;looping-thorugh-numbers-with-blocks-and-iterators&quot;&gt;Looping thorugh numbers with blocks and iterators&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;5.times do puts &quot;Test&quot; end
+5.times { puts &quot;Test&quot; }
+
+1.upto(5) { ... code to loop here... }
+10.downto(5) { ... code to loop here... }
+0.step(50, 5) { ... code to loop here... }
+
+1.upto(5) { |number| puts number }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;floating-point-numbers&quot;&gt;Floating Point Numbers&lt;/h2&gt;
+
+&lt;p&gt;to_f&lt;br /&gt;
+to_i&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;constants&quot;&gt;Constants&lt;/h2&gt;
+
+&lt;p&gt;Constants are represented in Ruby by a variable name beginning with a capital letter. ex. Pi&lt;br /&gt;
+Once a class is defined, it’s a constant part of the program and therefore acts as a constant.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 01 Jan 2015 00:00:00 -0500</pubDate>
+        <link>http://mattcho.github.io//2015/01/01/numbers-&-expressions.html</link>
+        <guid isPermaLink="true">http://mattcho.github.io//2015/01/01/numbers-&-expressions.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Problem006</title>
