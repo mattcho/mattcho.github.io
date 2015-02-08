@@ -1,1 +1,16 @@
-2015-02-07-intro.markdown
+---
+layout: post
+title: Living sanely
+---
+
+There are so many technologies. For my sanity, I decided to focus on what I like and to stay calm with that.
+
+
+
+
+
+
+
+
+
+
