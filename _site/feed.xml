@@ -5,13 +5,13 @@
     <description></description>
     <link>http://mattcho.github.io//</link>
     <atom:link href="http://mattcho.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 08 Feb 2015 16:56:26 -0500</pubDate>
-    <lastBuildDate>Sun, 08 Feb 2015 16:56:26 -0500</lastBuildDate>
+    <pubDate>Sun, 08 Feb 2015 16:58:42 -0500</pubDate>
+    <lastBuildDate>Sun, 08 Feb 2015 16:58:42 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>Conceptual undestanding of JavaScript</title>
-        <description>&lt;p&gt;I think that a conceptual understanding of the main feaures of a programming language is the better way to learn it than depending on trials-and-errors being repeated until it works somehow. That being said, I decided to write about JavaScript, particularly its inherent concepts worth revisiting from time to time.&lt;/p&gt;
+        <description>&lt;p&gt;I think that a conceptual understanding of the main feaures of a programming language is the better way to learn it than depending on trials-and-errors being repeated until it works somehow. That being said, I decided to write about JavaScript, particularly its inherent concepts worth revisiting from time to time. Of course, I cannot write everything in one post, so I will continue adding posts avoiding repeated contents.&lt;/p&gt;
 
 &lt;h3 id=&quot;whitespace&quot;&gt;Whitespace&lt;/h3&gt;
 &lt;ol&gt;
