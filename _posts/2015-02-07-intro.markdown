@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "this" in JavaScript
+title: Understanding JavaScript
 ---
 
 I think that a conceptual understanding of the main feaures of a programming language is the better way to learn it than depending on trials-and-errors being repeated until it works somehow. That being said, I decided to write about JavaScript, particularly its inherent concepts worth revisiting from time to time. Of course, I cannot write everything in one post, so I will continue adding posts avoiding repeated contents.
