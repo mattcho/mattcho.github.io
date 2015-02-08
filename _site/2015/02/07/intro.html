@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Living sanely</title>
-  <meta name="description" content="There are so many technologies. For my sanity, I decided to focus on what I like and to stay calm with that.">
+  <title>Conceptual undestanding of JavaScript</title>
+  <meta name="description" content="I think that a conceptual understanding of the main feaures of a programming language is the better way to learn it than depending on trials-and-errors being...">
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://mattcho.github.io//2015/02/07/intro.html">
@@ -57,12 +57,68 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Living sanely</h1>
+    <h1 class="post-title">Conceptual undestanding of JavaScript</h1>
     <p class="post-meta">Feb 7, 2015</p>
   </header>
 
   <article class="post-content">
-    <p>There are so many technologies. For my sanity, I decided to focus on what I like and to stay calm with that.</p>
+    <p>I think that a conceptual understanding of the main feaures of a programming language is the better way to learn it than depending on trials-and-errors being repeated until it works somehow. That being said, I decided to write about JavaScript, particularly its inherent concepts worth revisiting from time to time.</p>
+
+<h3 id="whitespace">Whitespace</h3>
+<ol>
+  <li>Whitespace can be used when formatting characters or comments.</li>
+  <li>Whitespace means one of the following cases.
+    <ul>
+      <li>space</li>
+      <li>tab</li>
+      <li>line end</li>
+      <li>// comments</li>
+      <li>/* comments */ (not recommended. regular expressions)</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="objects">Objects</h3>
+<ol>
+  <li>
+    <p>The primitive types of JavaScript are numbers, strings, booleans, null and undefined. All other values are objects.</p>
+  </li>
+  <li>
+    <p>Numbers, strings, and booleans are object-like in that they have methods, but they are immutable.</p>
+  </li>
+  <li>
+    <p>Objects in JavaScript are mutable keyed collections.</p>
+  </li>
+  <li>
+    <p>In JavaScript objects, a property name can be any string, including the empty string.</p>
+  </li>
+  <li>
+    <p>A property value can be any JavaScript value except for <em>undefined</em>.</p>
+  </li>
+  <li>
+    <p>There is no constraint on the names of new properties or on the values of properties.</p>
+  </li>
+  <li>
+    <p>JavaScript’s prototype feature can reduce object initialization time and memory consumption.</p>
+  </li>
+</ol>
+
+<h3 id="functions">Functions</h3>
+
+<ol>
+  <li>
+    <p>Functions in JavaScript are objects.</p>
+  </li>
+  <li>
+    <p>Object literals are linked to Object.prototype</p>
+  </li>
+  <li>
+    <p>Function objects are linked to Function.prototype</p>
+  </li>
+  <li>
+    <p>Every function has two additional properties: context and the implementing code.</p>
+  </li>
+</ol>
 
 
   </article>
