@@ -1,12 +1,40 @@
-# Site settings
-title: Matt Cho
-email: mattcho.dw@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://mattcho.github.io/" # the base hostname & protocol for your site
-twitter_username: matt_dcho
-github_username:  mattcho
+# Title of your blog; shows in the header
+name: "Matt Cho, a full-stack web developer"
 
-# Build settings
+# Description of your content (will only be used on Google Search)
+description: "Matt Cho's personal website"
+
+# Your name. Will show in your footer + sidebar 
+author: "Matt Cho"
+
+url: "http://m3xm.github.io"
+# baseurl: "/hikari-for-Jekyll"
+baseurl: "/mattcho"
+
+# A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words. 
+author-bio: "I'm a full-stack web developer. I develop things."
+
+# Social Accounts (mine, as placeholders)
+
+github: https://github.com/mattcho
+twitter: matt_dcho
+
+# Google Analytics (you may want to changes these with yours or even delete :)
+
+ga_domain: mattcho.github.io
+ga_tracking_id: UA-47727049-1
+
+# Other (refer to http://jekyllrb.com/docs/home/ for further details on the below)
+
 markdown: kramdown
+permalink: pretty
+highlighter: pygments
+
+paginate: 10
+paginate_path: "/page/:num"
+
+# SCSS
+
+sass:
+  sass_dir: _scss
+  style: :compressed

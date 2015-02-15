@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Matt Cho, a full-stack web developer</title>
+  <id>http://m3xm.github.io</id>
+  <link href="http://m3xm.github.io" />
+  <link href="http://m3xm.github.io/atom.xml" rel="self" />
+  <updated>2015-02-15T16:19:46-05:00</updated>
+  <rights>Copyright 2014, Matt Cho</rights>
+  <author>
+    <name>Matt Cho</name>
+  </author>
+  
+    <entry>
+      <title>Understanding JavaScript</title>
+      <link href="http://m3xm.github.io/2015/02/07/javascript/" />
+      <summary type="html">&lt;p&gt;I think that a conceptual understanding of the main feaures of a programming language is the better way to learn it than depending on trials-and-errors being repeated until it works somehow. That being said, I decided to write about JavaScript, particularly its inherent concepts worth revisiting from time to time. Of course, I cannot write everything in one post, so I will continue adding posts avoiding repeated contents.&lt;/p&gt;
+
+&lt;h3 id=&quot;whitespace&quot;&gt;Whitespace&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Whitespace can be used when formatting characters or comments.&lt;/li&gt;
+  &lt;li&gt;Whitespace means one of the following cases.
+    &lt;ul&gt;
+      &lt;li&gt;space&lt;/li&gt;
+      &lt;li&gt;tab&lt;/li&gt;
+      &lt;li&gt;line end&lt;/li&gt;
+      &lt;li&gt;// comments&lt;/li&gt;
+      &lt;li&gt;/* comments */ (not recommended. regular expressions)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;objects&quot;&gt;Objects&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;The primitive types of JavaScript are numbers, strings, booleans, null and undefined. All other values are objects.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Numbers, strings, and booleans are object-like in that they have methods, but they are immutable.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Objects in JavaScript are mutable keyed collections.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In JavaScript objects, a property name can be any string, including the empty string.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A property value can be any JavaScript value except for &lt;em&gt;undefined&lt;/em&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;There is no constraint on the names of new properties or on the values of properties.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;JavaScript’s prototype feature can reduce object initialization time and memory consumption.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;functions&quot;&gt;Functions&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Functions in JavaScript are objects.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Object literals are linked to Object.prototype&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Function objects are linked to Function.prototype&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Every function has two additional properties: context and the implementing code.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+</summary>
+      <id>http://m3xm.github.io/2015/02/07/javascript/</id>
+      <updated>2015-02-07T00:00:00-05:00</updated>
+      <author>
+        <name>Matt Cho</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Going back on 2013; quite an incredible year</title>
+      <link href="http://m3xm.github.io/2014/01/03/going-back-2013/" />
+      <summary type="html">&lt;p&gt;A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.&lt;/p&gt;
+
+&lt;p&gt;I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.&lt;/p&gt;
+
+&lt;p&gt;I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.&lt;/p&gt;
+
+&lt;p&gt;I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.&lt;/p&gt;
+
+&lt;p&gt;When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream. &lt;/p&gt;
+
+&lt;p&gt;As I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz of the little world among the stalks, and grow familiar with the countless indescribable forms of the insects and flies, then I feel the presence of the Almighty, who formed us in his own image, and the breath of that universal love which bears and sustains us, as it floats around us in an eternity of bliss; and then, my friend, when darkness overspreads my eyes, and heaven and earth seem to dwell in my soul and absorb its power, like the form of a beloved mistress, then I often think with longing, Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might be the mirror of my soul, as my soul is the mirror of the infinite God!&lt;/p&gt;
+
+&lt;p&gt;O my friend – but it is too much for my strength – I sink under the weight of the splendour of these visions!&lt;/p&gt;
+
+&lt;p&gt;A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.&lt;/p&gt;
+
+&lt;p&gt;I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment.&lt;/p&gt;
+</summary>
+      <id>http://m3xm.github.io/2014/01/03/going-back-2013/</id>
+      <updated>2014-01-03T11:57:51-05:00</updated>
+      <author>
+        <name>Matt Cho</name>
+      </author>
+    </entry>
+  
+</feed>
