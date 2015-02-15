@@ -9,7 +9,7 @@ author: "Matt Cho"
 
 url: "http://m3xm.github.io"
 # baseurl: "/hikari-for-Jekyll"
-baseurl: "/mattcho"
+# baseurl: "/mattcho"
 
 # A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words. 
 author-bio: "I'm a full-stack web developer. I develop things."
