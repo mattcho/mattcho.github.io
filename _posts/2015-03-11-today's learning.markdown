@@ -1,43 +1,20 @@
 ---
 layout: post
-title: Understanding JavaScript
+title: Monkey Patching
 ---
 
-I think that a conceptual understanding of the main feaures of a programming language is the better way to learn it than depending on trials-and-errors being repeated until it works somehow. That being said, I decided to write about JavaScript, particularly its inherent concepts worth revisiting from time to time. Of course, I cannot write everything in one post, so I will continue adding posts avoiding repeated contents.
+Heard this term for the first time during the technical interview with Flat World.
 
+According to Wikipedia,
 
-### Whitespace
-1. Whitespace can be used when formatting characters or comments.
-2. Whitespace means one of the following cases.
- - space
- - tab
- - line end
- - // comments
- - /* comments */ (not recommended. regular expressions)
+A monkey patch is a way for a program to extend or modify supporting system software locally (affecting only the running instance of the program). This process has also been termed duck punching.[
 
-### Objects
-1. The primitive types of JavaScript are numbers, strings, booleans, null and undefined. All other values are objects.
+For example, of Active Records in Rails, the flexibility of find_by methods comes from using Monkey Patching according to Keith.
 
-2. Numbers, strings, and booleans are object-like in that they have methods, but they are immutable.
+I asked back what is the difference between overwriting and monkey patching, and he answered overwriting happens when inheriting from some class, but monkey patching is about patching a new method in place. However, commonly used methods are better not be monkey patched.
 
-3. Objects in JavaScript are mutable keyed collections.
+Other than that, the following questions refreshed my mind.
 
-4. In JavaScript objects, a property name can be any string, including the empty string.
-
-5. A property value can be any JavaScript value except for *undefined*.
-
-6. There is no constraint on the names of new properties or on the values of properties.
-
-7. JavaScript's prototype feature can reduce object initialization time and memory consumption.
-
-### Functions
-
-1. Functions in JavaScript are objects.
-
-2. Object literals are linked to Object.prototype
-
-3. Function objects are linked to Function.prototype
-
-4. Every function has two additional properties: context and the implementing code.
-
-
+1. What is Enumerable?
+2. What does this result?
+3. What does "include" do?
