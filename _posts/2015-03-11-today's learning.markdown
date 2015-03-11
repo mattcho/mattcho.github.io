@@ -11,7 +11,7 @@ A monkey patch is a way for a program to extend or modify supporting system soft
 
 For example, of Active Records in Rails, the flexibility of find_by methods comes from using Monkey Patching according to Keith.
 
-I asked back what is the difference between overwriting and monkey patching, and he answered overwriting happens when inheriting from some class, but monkey patching is about patching a new method in place. However, commonly used methods are better not be monkey patched.
+I asked back what is the difference between overwriting and monkey patching. Overwriting happens when inheriting from some class, but monkey patching is about patching a new method in place. However, commonly used methods are better not be monkey patched.
 
 Other than that, the following questions refreshed my mind.
 
