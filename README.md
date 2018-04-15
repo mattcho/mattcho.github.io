@@ -2,6 +2,7 @@
     https://github.com/envygeeks/jekyll-docker/blob/master/README.md
 
 # Run
-    export JEKYLL_VERSION=3.5
-    
-    docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/jekyll:$JEKYLL_VERSION jekyll build
+    docker run -d --name jek -p 4000:4000 --volume="$PWD:/srv/jekyll" jekyll/jekyll:$JEKYLL_VERSION jekyll serve
+
+
+    git push
